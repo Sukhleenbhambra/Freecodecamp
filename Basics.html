@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  //head
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML,CSS" />
+    <meta name="description" content="..." />
+    <title>Document</title>
+  </head>
+  //body
+  <body>
+    //headings
+    <h1>The Brown Bear</h1>
+    <div>
+      <h2>About Brown Bears</h2>
+      <h3>Species</h3>
+      <h3>Features</h3>
+      //unordered lists
+      <ul>
+        <li>Arctos</li>
+        <li>Collarus</li>
+        <li>Horribilis</li>
+        <li>Nelsoni(extinct)</li>
+  </ul>
+     //ordered lists
+     <ol>
+      <li> Russia</li>
+       <li> United States</li>
+       <li> Canada</li>
+    </ol>
+     //div
+    </div>
+    <div id="media">
+      <h2>Media</h2>
+      //image
+    <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg"/>
+     </div>  
+     //image alt
+    </div>
+    <div id="media">
+      <h2>Media</h2>
+      <img
+      src="#" alt="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg"
+    />
+   </div>
+  //table,table row, table data,table headings,column span, row span,table footer
+   <table>
+    <thead>
+    <tr>
+      <th>Company Name</th>
+      <th>Number of Items to Ship</th>
+      <th>Next Action</th>
+    </tr>
+    <tr>
+      <td colspan="2">Adam's Greenworks</td>
+      <td>14</td>
+      <td>Package Items</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Davie's Burgers</td>
+      <td>2</td>
+      <td>Send Invoice</td>
+    </tr>
+    <tr>
+      <td>Baker's Bike Shop</td>
+      <td>3</td>
+      <td>Send Invoice</td>
+    </tr>
+    <tr>
+      <td>Miss Sally's Southern</td>
+      <td>4</td>
+      <td>Ship</td>
+    </tr>
+    <tr>
+      <td>Summit Resort Rentals</td>
+      <td>4</td>
+      <td>Ship</td>
+    </tr>
+    <tr>
+      <td>Strike Fitness</td>
+      <td>1</td>
+      <td>Enter Order</td>
+    </tr>
+<tr>
+ <tfoot>
+  <td>Total</td>
+<td>28</td>
+ </tfoot
+//form input
+ <form action="check.html" method="GET">
+        
+  <label for="guess">Enter a number between 1-10:</label>
+  <br>
+  <input type="number" name="guess" id="guess" required>
+  <br>
+  <input type="submit" id="submission" value="Submit">
+</form>
+// form minimum and maximum
+<form action="check.html" method="GET">
+  <label for="guess">Enter a number between 1-10:</label>
+  <br>
+  <!--Add the min and max attribute to the input-->
+  <input type="number" name="guess" id="guess" min="1" max="10" required>
+  <br>
+  <input type="submit" id="submission" value="Submit">
+</form>
+// form textlength
+<form action="/example.html" method="POST">
+  <label for="summary">Summarize your feelings in less than 250 characters</label>
+  <input id="summary" name="summary" type="text" minlength="5" maxlength="250" required>
+  <input type="submit" value="Submit">
+</form>
+// matching pattern
+<form action="/example.html" method="POST">
+  <label for="payment">Credit Card Number (no spaces):</label>
+  <br>
+  <input id="payment" name="payment" type="text" required pattern="[0-9]{14,16}">
+  <input type="submit" value="Submit">
+</form>
+// sections, articles
+<section>
+  <h2>Fun Facts About Cricket</h2>
+  <article>
+    <p>A single match of cricket can last up to 5 days.</p>
+  </article>
+</section>
+//aside
+<aside
+  <p>
+   Babe Ruth once stated, “Heroes get remembered, but legends never die.” 
+  </p>
+</aside>
+//figure and figurecaption
+<figure>
+  <img src="overwatch.jpg">
+  <figcaption>This picture shows characters from Overwatch.</figcaption>
+</figure>
+// audio
+audio>
+  <source src="iAmAnAudioFile.mp3" type="audio/mp3">
+</audio>
+//video
+<video src="coding.mp4" controls>Video not supported</video>
+//embed
+<embed src="download.gif"/>
+ //breaks
+    <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America.
+    <br><br> There are many subspecies within the brown
+     bear species, including the Atlas bear and the Himalayan brown bear.</p>
+       //paragraph
+    <p>I like this <em>HTML!</em></p>
+  </body>
+</html>
